@@ -1,8 +1,7 @@
 jquery-responsiveVideos
 =======================
 
-Convert all videos on a page to be responsive
-
+Convert all videos on a page to be responsive.
 
 Easy Peasy.
 
@@ -43,7 +42,7 @@ $(document).ready(function () {
 
 ###How Does It Work?
 
-jQuery-responsiveVideos works 
+jQuery-responsiveVideos works as follows:
 
 1. Find all object or iFrame tags within the scope of 'parentEl'
 2. Check if their src attributes include a match to the sources provided in settings (if not, check data-src)
