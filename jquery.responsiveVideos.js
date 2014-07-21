@@ -79,7 +79,7 @@
 	                    ratioPadding = ratioPaddingSize($(this).width(), $(this).height());
 
 	                    $(this).wrap('<div class="' + plugin.settings.wrapperClass + '"></div>').parent().css({
-	                        'padding-top': ratioPadding + '%',
+	                        'padding-top': ratioPadding.toFixed(3) + '%',
 	                        'position': 'relative'
 	                    });
 
